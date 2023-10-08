@@ -1,4 +1,3 @@
-# BengalUniversityGuidance
 # Bengal University Guidance 🎓
 Welcome to the Bengal University Guidance project! This website is designed to help students navigate their educational journey and find the path to success. Here's what this project is all about:
 
