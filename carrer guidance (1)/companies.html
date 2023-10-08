@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+    <title>Companies</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        tr{background-color: white;}
+        #main{background-color: #EAE9E5;
+                height:100vh;} 
+               
+        /* width */
+        ::-webkit-scrollbar {
+            height: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #222D44; 
+          border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #b30000; 
+        }
+        
+
+        /* images*/
+      img{
+        height: 200px;
+        width: 250px;
+        margin: 10px;
+      }
+
+      .paragraph{
+        font-size: 20px;
+      }
+
+
+        /* when the browser window is 600px wide or less */
+        @media screen and (max-width: 600px) {
+            #main{
+                height:400px;
+            }
+            .imgcompany {
+                  border-radius: 1px;
+                  padding: 2px;
+                  height:120px; 
+                  width:120px;
+            }
+            .companyname{
+                font-size: 14px;
+            }
+            .companylocation{
+                font-size: 10px;
+            }        
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <!-- <div><a href="index.html"><img id="sitelogo" class="sitelogoclass" src="images/sitelogo.png"></a></div> 
+            <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Welcome to Bengal University Guidance</b></span></h1>
+            </div>
+        </div> -->
+    </div>
+    
+    <!-- <div id="menu" class="topnav" align="right">
+      <a href="index.html" alink="red"><b>Home</b></a>
+      <a href="education.html" alink="red"><b>Education</b></a>
+      <a href="companies.html" alink="red" target="_self"><b>Companies</b></a>
+      <a href="contactus.html" alink="red"><b>Contact Us</b></a>
+    </div> -->
+    
+    <div id="main" align="center">
+        <br><h1 align="center"><span class="headingspan">Companies & Internships</span></h1>  
+         <h2>Top Emerging IT Companies in India</h2>
+
+         <br> 
+         <p class="paragraph">
+            India is home to a new generation of dynamic and innovative companies that are making waves
+            in various industries. These companies are transforming the business landscape and contributing
+            significantly to the country's growth. From revolutionizing e-commerce to pioneering sustainable
+            energy solutions, these emerging firms are shaping the future of India's economy.
+        </p>
+            <div id="companytablediv">            
+                <table border="4">
+                    <tr>                    
+                        <td>
+                            <center>
+                                <a href="https://www.tcs.com/" target="_blank"><img class="imgcompany" src="images/TCS.jpg" alt="TCS" title="TCS" align="center"><b><span class="companyname"></span></b></a><br>
+                                <a href="https://www.tcs.com/" target="_blank"><b><span class="companyname">TCS</span></b></a><br>
+                                <br>
+                                <h3>Want To Apply ?</h3>
+                                
+                                <a href="https://www.tcscodevita.com/"><b><span>Test & Internships</span></b></a>
+                            </center>                            
+                        </td>
+                        <td>
+                            <center>
+                                <a href="https://www.cognizant.com/in/en" target="_blank"><img class="imgcompany" src="images/cognizant.jpg" alt="COGNIZANT" title="COGNIZANT"><b><span class="companyname"></span></b></a><br>
+                                <a href="https://www.cognizant.com/in/en" target="_blank"><b><span class="companyname">COGNIZANT</span></b></a><br>
+                                <br>
+                                <h3>Want To Apply ?</h3>
+                                <a href="https://www.avixa.org/certification-section/CTS"><b><span>Test & Internships</span></b></a>
+                            </center>                            
+                        </td>
+                        <td>
+                            <center>
+                                <a href="https://www.accenture.com/in-en" target="_blank">
+                                    <img class="imgcompany" src="images/accenture01.jpg" alt="ACCENTURE" title="ACCENTURE" align="center"><b><span class="companyname"></span></b>
+                                </a><br>
+                                <a href="https://www.accenture.com/in-en" target="_blank"><b><span class="companyname">ACCENTURE</span></b></a><br>
+                                <br>
+                                <h3>Want To Apply ?</h3>
+                                <a href="https://careers.wipro.com/elite"><b><span>Test & Internships</span></b></a>
+                            </center>                        
+                        </td>
+                        <td>
+                            <center>
+                                <a href="https://www.capgemini.com/in-en/" target="_blank">
+                                    <img class="imgcompany" src="images/capgemini.jpg" alt="CAPGEMINI" title="CAPGEMINI" align="center"><b><span class="companyname"></span></b></a><br>
+                                    <a href="https://www.capgemini.com/in-en/" target="_blank"><b><span class="companyname">CAPGEMINI</span></b></a><br>
+                                    <br>
+                                    <h3>Want To Apply ?</h3>
+                                    <a href="https://www.capgemini.com/in-en/careers/capgemini-exceller-pooled-campus-drive-for-engineeringmca-graduates-2022-batch/"><b><span>Test & Internships</span></b></a>
+                            </center>                            
+                        </td>  
+                         <td>
+                            <center>
+                                <a href="https://www.wipro.com/" target="_blank"><img class="imgcompany" src="images/wipro.jpg" alt="WIPRO" title="WIPRO" align="center"><b><span class="companyname"></span></b></a><br>
+                                <a href="https://www.wipro.com/" target="_blank"><b><span class="companyname">WIPRO</span></b></a><br>
+                                <br>
+                                <h3>Want To Apply ?</h3>
+                                <a href="https://careers.wipro.com/elite"><b><span>Test & Internships</span></b></a>
+                            </center>                            
+                        </td>  
+                        <!-- <td>
+                            <center>
+                                <a href="https://www.trianz.com/" target="_blank"><img class="imgcompany" src="images/company_pontem.png" alt="TRIANZ" title="TRIANZ" align="center"><b><span class="companyname">TRIANZ</span></b></a><br>
+                                <span class="companylocation">Edmonton, Canada</span>
+                            </center>                            
+                        </td>   -->
+                    </tr>
+            </table>
+        </div>
+       
+    </div>
+    
+    <div id="footerDiv" class="footer">
+        <span class="footerSpan">&copy; Bengal University Guidance <br> Contact Us - <a class="contactemail" href="mailto:mndlksh01@gmail.com">bengal.university@edu.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>  
+</body>
+</html>
+

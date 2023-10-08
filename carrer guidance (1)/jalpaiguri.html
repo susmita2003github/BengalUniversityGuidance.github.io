@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+    <title>Jalpaiguri Government Engineering College</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/edudark.css">
+    <link rel="stylesheet" href="css/edulight.css">
+    <style>  
+    *{
+        background-color: #EAE9E5
+    }
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .src{
+        width:450px ;
+        height: 300px; 
+        float: left; 
+        margin-right:15px ;
+    }
+    .text{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+        #btPrevious {
+              top: 145%;
+        }
+        
+        #btNext {
+             top: 145%;
+        }
+        th {
+          background-color: #222D44; color: aliceblue;
+        }
+        tr:nth-child(even){background-color: #f2f2f2}
+        tr:nth-child(odd){background-color:  #EAE9E5}
+        .sImage img{
+            width:150px;
+            height:150px;
+            border-radius: 50%;
+            display:flex;
+            align-items: center;
+           
+        }
+        td img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+         }
+         td h4{
+           text-align: center;
+         }
+         td span{
+            text-align:center;
+         }
+         #placeddiv{
+            text-align: center;
+            margin-top:20px;
+         }
+         #Degreespan
+         {
+            text-align: center;
+         }
+    @media screen and (max-width: 600px) {
+          #btPrevious {
+             top: 270%;
+             margin-left: 20px;
+             padding: 2px 5px;    
+          }
+           #btNext {
+             top: 270%;
+             margin-left: 45px;
+             padding: 2px 5px;      
+          }
+        .sImage {
+                padding: 0px;                  
+            }
+    .sImage img {
+        width:42px; height:45px;
+        border: 0px solid #ddd;
+        }
+    }      
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-container">
+            <div><a href="index.html"></a></div> 
+            <!-- <div>
+                <h1 id="siteheading" align="left"><span class="sitetitle"><b>Career Opportunities in West Bengal</b></span></h1>
+            </div> -->
+        </div>
+    </div>
+    
+    <div id="main" class="row">
+        <div class="contanier">
+        <br><h1 align="center"><span class="headingspan">Jalpaiguri Government Engineering College </span></h1>
+        <img src="./images/Hack4.jpg" class="src" >
+        <div class="text">
+           <br>
+        <p>The Jalpaiguri Government Engineering College, abbreviated as JGEC, is an autonomous college, owned fully by Government of West Bengal, and affiliated to Maulana Abul Kalam Azad University of Technology. The courses conducted by JGEC have the approval of the All India Council for Technical Education (AICTE), and accredited by the National Board of Accreditation (NBA). JGEC is also a NAAC accredited institute. JGEC is a premier institute of technical education in West Bengal, established in the year 1961.</p>
+        <p>For more information - <a href="https://jgec.ac.in/">Visit here</a></p>
+        </div>
+    </div>
+        <h3 align="center"><span class="headingspan">Courses Offered</span></h3>   
+            <div id="coursesoffered" align="center">
+                <table border="1">
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Fees</th>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">1.</td>
+                        <td>B.E. / B.Tech</td>
+                        <td class="tdduration">4 Years</td>
+                        <td>37.3 K - 1.1 L</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">3.</td>
+                        <td>M.E./M.Tech</td>
+                        <td class="tdduration">3 Years</td>
+                        <td>91.8 K</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+     <div id="mainImageGallery" class="row" align="center">
+        <br><h3 align="center"><span class="headingspan"></span></h3>
+        <div id="imgDiv">
+            <!-- <input class="btn" type="button" id="btPrevious" value="Previous" onclick="onPrevClick();">
+            <img id="mainImg" src="images/u_mcgill/pic5.jpg" alt="McGill University" title="McGill University">
+            <input class="btn" type="button" id="btNext" value="Next" onclick="onNextClick();"> -->
+            <h3>Few Alumni profile of KGEC</h3>
+        </div>
+        
+        <div id="galleryDiv">
+            <table border=1>
+                <tr>
+                    <!-- <th class="sImage">Alumni Name</th>
+                    <th class="sImage">Ritabrata Sanyal</th>
+                    <th class="sImage">Souvik pal</th>
+                    <th class="sImage">Raja Kumar Mishra</th> -->
+                    <td class="sImage"><img id="img4" src="./images/subham.jpg" alt="."  onmouseover="mouseOver(4);"><h4>Subham Bajoria</h4><span id="Degreespan"><b>Degree-</b> BE BTech-Bachelor of Engineering or Technology,Other</span><div id="placeddiv"><b>Placed in- </b><a href="https://www.accenture.com/in-en">Accenture</a></div></td>
+                    <td class="sImage"><img id="img4" src="./images/nikhil.jpg" alt="."  onmouseover="mouseOver(4);"><h4>Nikhil Kumar Ghosh</h4><span id="Degreespan"><b>Degree-</b>BE BTech-Bachelor of Engineering or Technology, CE-Computer Engineering</span><div id="placeddiv"><b>Placed in- </b><a href="https://www.wipro.com/">Wipro</a></div></td>
+                    <td class="sImage"><img id="img4" src="./images/abhisekh.jpg" alt="."  onmouseover="mouseOver(4);"><h4>Abhishek Kumar</h4><span id="Degreespan"><b>Degree-</b>BBE BTech-Bachelor of Engineering or Technology, ME-Mechanical Engineering</span><div id="placeddiv"><b>Placed in- </b><a href="https://www.cognizant.com/in/en">Cognizant</a></div></td>
+                    
+                </tr>
+                <tr>
+                   <!-- <td>Course enrolled</td> -->
+                   <!-- <td>BE BTech-Bachelor of Engineering or Technology, CS-Computer Science</td>
+                   <td>MBA-Master of Business Administration, IT and Marketing</td>
+                   <td>BE BTech-Bachelor of Engineering or Technology, Other</td> -->
+                </tr>
+                <tr>
+                    <!-- <td>Skills</td> -->
+                    <!-- <td>Aptitude,Python,Computer Programmer,Web Developer,Android,Digital Marketing,Marketing,Content Writing</td>
+                    <td>English Language,Aptitude,Marketing,Advertising,SAP FICO SAP Finance and Controlling,Quantitative Aptitude,Networking,Public Speaking,Quantitative</td>
+                    <td>Aptitude,Entrepreneurship,English Language,Team Management,Team Leadership,Core Java,Electronics and Communication</td> -->
+                </tr>
+            </table>
+        </div>  
+    </div>
+    
+    <div id="footerDiv" class="footer">
+        <div id="footerDiv" class="footer">
+            <span class="footerSpan">&copy; Bengal University Guidance <br> Contact me - <a class="contactemail" href="mailto:mndlksh01@gmail.com">bengal.university@edu.com</a></span>
+        </div>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jseducommon.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+    <title>About Us</title>
+    <meta charset="utf-8">
+   
+    <style>
+    body{
+        background-color: #EAE9E5;
+    } 
+          #main p{
+            display:flex;
+            margin-left:2%;
+            font-size: 1.3rem;
+            padding:20px;
+         } 
+   
+         #main h2{
+            font-size: 2.5rem;
+            margin-right:100px;
+         } 
+    
+      
+        .img_deg img {
+            float:right;
+            width:300px;
+            height:250px;
+            
+            margin-right:90px;
+            margin-top: 2rem;
+        } 
+
+        #galleryDiv img{
+            width:150px;
+            height:150px;
+            border-radius: 100px;
+            margin:20px;
+        }
+          
+        #btPrevious {
+              top: 155%;
+        }
+        
+         #btNext {
+             top: 155%;
+        }
+
+       
+
+    
+
+     
+     
+        
+    @media screen and (max-width: 600px) {
+          #btPrevious {
+             top: 300%;
+             margin-left: 20px;
+             padding: 2px 5px;    
+          }
+           #btNext {
+             top: 300%;
+             margin-left: 45px;
+             padding: 2px 5px;      
+          }
+        .sImage {
+                padding: 0px;                  
+            }
+    .sImage img {
+        width:42px; height:45px;
+        border: 0px solid #ddd;
+        }
+    }
+    </style>
+  <script>
+    var i=0;
+    var images = [];
+    var time = 2000;
+
+    // image list 
+    images[0] = 'images/about1.jpg'
+    images[1] = 'images/about2.jpg'
+    images[2] = 'images/about3.jpg'
+    images[3] = 'images/about4.jpg'
+
+    // change image 
+    function changeImage(){
+        document.slide.src = images[i];
+
+        if(i <images.length - 1){
+            i++;
+        }
+        else{
+            i=0;
+        }
+        setTimeout("changeImage()",time);
+    }
+    window.onload = changeImage;
+  </script>
+
+</head>
+<body>
+  
+   
+    <div id="main" class="row">
+        <br><h2 align="center"><span class="headingspan">About Us</span></h2>
+
+        <div class="img_deg">
+            <!-- <img src="images/about.jpg" alt=""> -->
+            <img name="slide" width="400" height="200" alt="">
+        </div>
+    
+        <div >
+        <p class="up" >Bengal University Guidance is more than just an educational institution; we are your partners in navigating the path to a brighter future. Our mission is to empower students with knowledge, skills, and confidence, enabling them to excel academically and thrive in life.
+
+            At Bengal University Guidance, we prioritize academic excellence, holistic development, and personal growth. Our dedicated team of educators and advisors is committed to providing top-tier guidance and support to every student who walks through our doors.
+            
+            We believe in fostering a nurturing and inclusive learning environment where diversity is celebrated and innovation is encouraged. Our programs are designed to not only impart knowledge but also cultivate critical thinking, creativity, and a lifelong love for learning.
+            
+            Whether you are a high school student planning for college, a college student exploring career options, or an adult learner seeking to advance your skills, Bengal University Guidance is here to assist you every step of the way. We offer personalized counseling, comprehensive resources, and a network of opportunities to help you reach your goals.
+            
+            Join us on this educational journey, and let Bengal University Guidance be your compass towards a brighter and more promising future. Together, we will unlock your full potential and set you on the path to success.</p>
+        </div>
+
+    
+    </div>
+    
+ 
+        <br>
+        <br>
+        <br>
+        <div id="galleryDiv">
+            <div align="center" class="team">
+                <h1>Meet Our Team</h1>
+            </div>
+                <table border=1 align="center">
+                    <tr>
+                        <td class="sImage"><img id="img2" src="images/akash.jpg" alt="." onmouseover="mouseOver(2);">
+                            <br>
+                            <h5>Akash Mondal</h5>
+                           <a href="https://www.linkedin.com/in/akash-mondal-9663bb250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+
+                           <a href="https://instagram.com/the_stalwart_lad?igshid=YTQwZjQ0NmI0OA=="> <box-icon type='logo' name='instagram'></box-icon>
+                           </box-icon>
+                           </a>
+
+                           <a href="https://www.facebook.com/profile.php?id=100025935214984&mibextid=ZbWKwL"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                        </td>
+
+                        <td class="sImage"><img id="img1" src="images/aesha.jpg" alt="" title="Aesha Roy" onmouseover="mouseOver(1);">
+                            <br>
+                            <h5>Aesha Roy</h5>
+
+                            <a href="https://www.linkedin.com/in/aesha-roy-519536251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+
+                           <a href="https://instagram.com/aesha_roy26?igshid=NGVhN2U2NjQ0Yg=="> <box-icon type='logo' name='instagram'></box-icon>
+                           </box-icon>
+                           </a>
+
+                           <a href="https://www.facebook.com/profile.php?id=100092517614731&mibextid=ZbWKwL"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                        </td>
+                           
+
+
+                        <td class="sImage"><img id="img2" src="images/susmita.jpg" alt="."onmouseover="mouseOver(2);">
+                        <br>
+                        <h5>Susmita Hazra</h5>
+                        <a href="https://www.linkedin.com/in/susmita-hazra-349646247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+
+                        <a href="https://instagram.com/susmitahazra622?igshid=OGQ5ZDc2ODk2ZA=="> <box-icon type='logo' name='instagram'></box-icon>
+                        </box-icon>
+                        </a>
+
+                        <a href="https://www.facebook.com/profile.php?id=61551786884713&mibextid=ZbWKwL"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                    </td>
+
+                    <td class="sImage"><img id="img2" src="images/suparna.jpg"  onmouseover="mouseOver(2);">
+                        <br>
+                        <h5>Suparna Mukhopadhyay</h5>
+                        <a href="https://www.linkedin.com/in/suparna-mukhopadhyay-12959627b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+
+                        <a href="https://instagram.com/s_daisys_dream?igshid=OGQ5ZDc2ODk2ZA=="> <box-icon type='logo' name='instagram'></box-icon>
+                        </box-icon>
+                        </a>
+
+                        <a href="https://www.facebook.com/padma.mukherjee.3994?mibextid=ZbWKwL"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                    </td>
+                       
+                    </tr>
+                </table>
+        </div>  
+
+        
+</div>
+
+
+    <div id="footerDiv" class="footer">
+        <span class="footerSpan">&copy; Bengal University Guidance <br> Contact Us - <a class="contactemail" href="mailto:mndlksh01@gmail.com">bengal.university@edu.com</a></span>
+</div>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+    background-color: black;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  nav {
+    margin-bottom: 1em;
+  }
+  nav a {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  main {
+    margin-bottom: 1em;
+  }
+  footer {
+    text-align: center;
+  } */
+
+  /*A Flexible Layout must have a parent element with the display property set to flex. Direct child elements(s) of the flexible container automatically becomes flexible items.*/
+/*used on all pages except home*/
+.flex-container 
+{
+    display: flex;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+body {
+  margin: 0;
+}
+
+
+
+
+
+/*zoom-in/out/reset buttons div on education page*/
+#adjustDiv{
+ float: right;
+ margin-right: 20px;
+}
+
+#adjustDiv a {
+  color: #222D44;
+  font-size: 3vw;
+}
+
+/* hover is CSS pseudo-class */
+.increaseFont:hover {
+  cursor:zoom-in;
+  text-decoration: none;
+}
+
+.decreaseFont:hover {
+  cursor:zoom-out;
+  text-decoration: none;
+}
+
+.resetFont:hover {
+  cursor:pointer;
+  text-decoration: none;
+}
+
+/* Style the header */
+.header {
+  background-color: #222D44;
+  padding: 20px;
+  text-align: center;
+}
+
+#siteheading{
+    margin-left: 10px; 
+    margin-top: 15px;
+     /*Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.*/
+    font-size: 4vw;
+    text-shadow: 2px 2px 5px red;
+    font-variant: small-caps;
+}

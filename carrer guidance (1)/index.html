@@ -1,0 +1,327 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Career Guidance Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Career Guidance Website</h1>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <h2>Welcome to the Career Guidance Website!</h2>
+    <p>This website is designed to help you find the right career path for you. We offer a variety of services, including:</p>
+    <ul>
+      <li>Career assessments</li>
+      <li>Resume writing</li>
+      <li>Interview preparation</li>
+      <li>Job search assistance</li>
+    </ul>
+    <p>We are here to help you succeed in your career. Contact us today to learn more about our services.</p>
+  </main>
+  <footer>
+    <p>Copyright 2023 Career Guidance Website</p>
+  </footer>
+</body>
+</html> -->
+
+
+
+<!doctype html>
+<html>
+<head>
+    <title>Bengal University Guidance</title>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="edudark.css">
+    <link rel="stylesheet" href="edulight.css"> -->
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <style>                    
+        #btPrevious {
+              top: 145%;
+        }
+        
+        #btNext {
+             top: 145%;
+        }
+        .topnav a{
+          margin: 10px;
+        padding: 10px;
+        text-decoration: none;
+        }
+      body{
+       /* background-image: url(../images/campus.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center; */
+       /* background-color: #076b79; */
+       margin: 0;
+       color: white;
+      }
+    
+.topnav {
+    display: flex;
+}
+
+.topnav a {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    transition: all .40s ease;
+    /* margin-bottom: 10px; */
+}
+
+.topnav a:hover {
+    color: #6d3bf7;
+}
+
+
+     .row p{
+        font-size: 20px;
+     }
+      
+      /* #coursesoffered tr{
+        margin-bottom: 10px;
+      } */
+
+      table{
+        height: 200px;
+      }
+      ul{
+        background-color: #9a9c9d;
+        padding: 20px;
+        list-style-type: none;
+        margin-top: 0;
+        top: 0;
+      }
+
+      header{
+        position: fixed;
+        top: 0;
+        right: 0;
+         width: 100%;
+       z-index: 1000;
+      }
+      .title{
+        margin-top: 10rem;
+      }
+           
+      .image img{
+        /* float:right;
+            width:300px;
+            height:250px;
+            
+            margin-right:90px; */
+            height: 250px;
+            width: 550px;
+
+      } 
+      p{
+        margin: 40px;
+      }
+      h1{
+        font-size: 30px;
+      }
+        #sitelogo img{
+          height: 75px;
+          width: 75px;
+          border-radius: 50px;
+          
+        }
+      .header{
+        justify-content: space-between;
+      }
+    
+
+      th {
+          background-color: #222D44; color: aliceblue;
+        }
+        tr:nth-child(even){background-color: #f2f2f2}
+        tr:nth-child(odd){background-color:  #EAE9E5}
+
+        .container::before{
+          content: "";
+          background: linear-gradient(45deg , rgba(5, 25, 49, 0.9), rgba(1, 33, 55, 0.9)), url(../images/Hackathon-logo2.png);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+       top: 0px;
+      left: 0px;
+      height: 130%;
+      width: 100%;
+      z-index: -1;
+      opacity:0.8;
+    }
+
+    .box{
+      display: flex;
+    }
+    .desc{
+      margin-top: 7rem;
+    }
+    td{
+      color: black;
+    }
+
+    .title h1{
+      animation: float 3s ease-in-out ;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(-40px);
+        
+
+      }
+
+      50% {
+        transform: translateY(0);
+       
+      }
+
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+
+    .headingspan{
+            animation-name: fadeIn;
+            animation-duration: 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+    .para{
+            animation-name: fadeIn;
+            animation-duration: 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+        }
+      }
+
+        
+
+    @media screen and (max-width: 600px) {
+          #btPrevious {
+             top: 270%;
+             margin-left: 20px;
+             padding: 2px 5px;    
+          }
+           #btNext {
+             top: 270%;
+             margin-left: 45px;
+             padding: 2px 5px;      
+          }
+        .sImage {
+                padding: 0px;                  
+            }
+    .sImage img {
+        width:42px; height:45px;
+        border: 0px solid #ddd;
+        }
+    }      
+    </style>
+</head>
+<body>
+  <header>
+    <div class="header">
+        <div class="flex-container">
+            
+            <ul>
+              <div id="menu" class="topnav" align="left" >
+              <div id="sitelogo"><a href=""><img   src="images/Hackathon-logo2.png"></a></div> 
+           
+              
+            
+              <li><a href="index.html" alink="red"><b>Home</b></a></li>
+             <li> <a href="education.html" alink="red"><b>Education</b></a></li>
+              <li><a href="companies.html" alink="red"><b>Companies & Internships</b></a></li>
+              <li><a href="about.html" alink="red"><b>About Us</b></a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc6M6Dh_Es4dADMR4Tb0ypT8-3eJYvoWGkRtHuOW0I3mE6y0g/viewform?embedded=true " alink="red"><b>Contact Us</b></a></li>
+             
+            </div>
+            </ul>
+        </div>
+    </div>
+  </header>
+    
+
+    <div class="container">
+    <div class="title">
+      <h1 id="siteheading" align="middle"><span class="sitetitle"><b>Welcome to Bengal University Guidance</b></span></h1>
+  </div>
+    
+ 
+    
+    <div id="main" class="row">
+        <br><h2 align="center"><span class="headingspan">Your Path to Success Begins Here</span></h2>
+       <div class="box">
+        <div class="image" align="right">
+          <img src="./images/gif.gif" alt=".">
+        </div>
+         
+        <p class="para">At Bengal University, we are dedicated to guiding you towards a brighter future. Whether you're a prospective student exploring educational opportunities, a current student seeking academic support, or an alumnus looking for career advice, you've come to the right place. Our mission is to empower your educational journey by providing you with the resources, information, and support you need to thrive. We understand that choosing the right path and making important academic and career decisions can be challenging. That's why we're here to assist you every step of the way.</p>
+      </div>
+        <h3 class="desc"  align="center"><span class="headingspan">What You'll Find Here</span></h3>   
+            <div id="coursesoffered" align="center">
+                <table border="2">
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Contents</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">1.</td>
+                        <td>Admissions Assistance</td>
+                        <td class="tdduration">Explore our wide range of undergraduate and postgraduate programs and get valuable insights into the application process.</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tdsno">2.</td>
+                        <td>Career Services</td>
+                        <td class="tdduration"> Explore internship opportunities, job placement assistance, and success stories from our alumni network.</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">3.</td>
+                        <td>Academic Excellence</td>
+                        <td class="tdduration">Discover our world-class faculty, diverse courses, and academic calendar to plan your educational path effectively.</td>
+                    </tr>
+                    <tr>
+                        <td class="tdsno">4.</td>
+                        <td>About Us</td>
+                        <td class="tdduration">Learn more about our university's mission, vision, and values, and find answers to frequently asked questions.</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+  </div>
+    
+
+    
+    <div id="footerDiv" class="footer">
+        <span class="footerSpan">&copy; Bengal University Guidance <br> Contact Us - <a class="contactemail" href="mailto:mndlksh01@gmail.com">bengal.university@edu.com</a></span>
+    </div>
+    <noscript>No Browser support for Javascript</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script src="jseducommon.js"></script>
+</body>
+</html>
